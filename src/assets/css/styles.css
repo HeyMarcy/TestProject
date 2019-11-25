@@ -1,0 +1,226 @@
+@font-face {
+  font-family: 'hk_grotesk_prolight';
+  src: url('../fonts/HKGroteskPro/hkgroteskpro-light-webfont.woff2') format('woff2'),
+       url('../fonts/HKGroteskPro/hkgroteskpro-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'hk_grotesk_promedium';
+  src: url('../fonts/HKGroteskPro/hkgroteskpro-medium-webfont.woff2') format('woff2'),
+       url('../fonts/HKGroteskPro/hkgroteskpro-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'hk_grotesk_proregular';
+  src: url('../fonts/HKGroteskPro/hkgroteskpro-regular-webfont.woff2') format('woff2'),
+       url('../fonts/HKGroteskPro/hkgroteskpro-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'hk_grotesk_prosemibold';
+  src: url('../fonts/HKGroteskPro/hkgroteskpro-semibold-webfont.woff2') format('woff2'),
+       url('../fonts/HKGroteskPro/hkgroteskpro-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'hk_grotesk_probold';
+  src: url('../fonts/HKGroteskPro/hkgroteskpro-bold-webfont.woff2') format('woff2'),
+       url('../fonts/HKGroteskPro/hkgroteskpro-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body{
+  font-family: 'hk_grotesk_prolight',Arial, Helvetica, sans-serif;
+}
+
+
+
+#logo {
+  width: 56.68px;
+  height: 56.68;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ffffff;
+  font-size: 12px;
+  
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: ;
+}
+
+a {
+  color: #767676;
+  text-decoration:none;
+  font-family: 'hk_grotesk_promedium', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+#nav-content a {
+  text-decoration:none;
+  font-family: 'hk_grotesk_promedium', Arial, Helvetica, sans-serif;
+  font-size: 1.3335rem;
+}
+#nav-content a.contact-us {
+  font-size: 1.45rem;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: 710px
+}
+
+.hero-background-2 {
+  height: 100px;
+  background-color: #F1F1F1;
+  height: 921px
+
+}
+
+
+
+
+h1 {
+  font-family: 'hk_grotesk_prolight';
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'hk_grotesk_prolight';
+  font-size: 1.2rem;
+}
+
+
+
+
+.cls-1, .cls-7, .cls-8, .cls-9 {
+  fill: none;
+  stroke-miterlimit: 10;
+}
+
+.cls-1 {
+  stroke: #6d7278;
+}
+
+.cls-2 {
+  fill: #eedd23;
+}
+
+.cls-3 {
+  fill: #fff;
+}
+
+.cls-4 {
+  fill: #f33437;
+}
+
+.cls-5 {
+  isolation: isolate;
+}
+
+.cls-6 {
+  fill: #67c7ec;
+}
+
+.cls-7 {
+  stroke: #eedd23;
+}
+
+.cls-7, .cls-8, .cls-9 {
+  stroke-linecap: square;
+}
+
+.cls-8 {
+  stroke: #000;
+}
+
+.cls-9 {
+  stroke: #2d7caf;
+}
+
+
+/* ACCORDION */
+
+         /* Tab content - closed */
+         .tab-content {
+          max-height: 0;
+          -webkit-transition: max-height .35s;
+          -o-transition: max-height .35s;
+          transition: max-height .35s;
+          }
+          /* :checked - resize to full height */
+          .tab input:checked ~ .tab-content {
+          max-height: 100vh;
+          }
+          /* Label formatting when open */
+          .tab input:checked ~ span.indicator{
+          /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
+          font-size: 1.5rem; /*.text-xl*/
+    
+   
+          }
+          /* Icon */
+          .tab span.indicator::after {
+          float:left;
+          left: 0;
+          bottom: 0;
+          display: block;
+          width: 1.5em;
+          height: 1.5em;
+          line-height: 1.5;
+          font-size: 1.5rem;
+          -webkit-transition: all .35s;
+          -o-transition: all .35s;
+          transition: all .35s;
+          }
+          /* Icon formatting - closed */
+          .tab input[type=checkbox] ~ span.indicator::after {
+          content: "+";
+    
+          /* border-width: 1px;
+          border-radius: 9999px; 
+          border-color: #b8c2cc;  */
+          }
+          /* Icon formatting - open */
+          .tab input[type=checkbox]:checked ~ span.indicator::after {
+            content: "–";
+          /* transform: rotate(315deg); */
+          /* background-color: #6574cd; 
+          color: #f8fafc;  */
+          }
+       

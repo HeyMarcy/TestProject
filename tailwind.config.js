@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         gray: {
+          'very-light': '#F1F1F1',
           'med-dark': '#767676',
           'cool-dark': '#6D7278',
         },
@@ -22,6 +23,9 @@ module.exports = {
     fontFamily: {
       display: ['hk_grotesk_promedium', 'sans-serif'],
       body: ['hk_grotesk_prolight', 'sans-serif'],
+    },
+    fill: {
+      current: 'currentColor',
     },
   },
   variants: {},

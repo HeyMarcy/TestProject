@@ -1,3 +1,7 @@
+@tailwind base;
+
+
+
 @font-face {
   font-family: 'hk_grotesk_prolight';
   src: url('../fonts/HKGroteskPro/hkgroteskpro-light-webfont.woff2') format('woff2'),
@@ -55,6 +59,7 @@
 
 body{
   font-family: 'hk_grotesk_prolight',Arial, Helvetica, sans-serif;
+  color: #000;
 }
 
 
@@ -69,7 +74,7 @@ body{
 }
 
 html {
-  background-color: #ffffff;
+  background-color: #fff;
   font-size: 12px;
   
 }
@@ -78,8 +83,46 @@ body {
   margin: 0;
 }
 
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.355;
+  font-family: 'hk_grotesk_prolight';
+  letter-spacing: -0.1rem ;
+  margin-bottom: 6rem;
+
+}
+/* 36px */
+h2 {
+ font-size: 3rem; 
+ font-family: 'hk_grotesk_prolight';
+}
+/* 24px */
+h3 {
+  font-size: 2rem;
+  font-family: 'hk_grotesk_prolight';
+}
+/* 18px */
+h4 {
+  font-size: 1.5rem;
+  font-family: 'hk_grotesk_prosemibold';
+}
+h6 {
+  font-size: 1.175rem;
+  font-family: 'hk_grotesk_prolight';
+}
+
+
 p {
-  font-family: ;
+  font-family: 'hk_grotesk_prolight';
+  font-size: 1.3335rem;
+  line-height: 1.8;
+}
+
+p.quote {
+  font: 1.75rem/3rem 'hk_grotesk_prolight', Arial, Helvetica, sans-serif;
+  @apply text-gray-med-dark;
+  @apply my-12;
 }
 
 a {
@@ -93,16 +136,22 @@ a {
   font-family: 'hk_grotesk_promedium', Arial, Helvetica, sans-serif;
   font-size: 1.3335rem;
 }
-#nav-content a.contact-us {
-  font-size: 1.45rem;
+
+a.cta {
+  font-size: 1.5rem;
+  font-family: 'hk_grotesk_promedium';
+  @apply text-blue-brand;
+  @apply py-2;
+  @apply border-blue-brand;
+  @apply border-b;
+  @apply inline-block;
+  @apply no-underline;
 }
 
-.wrapper {
-  position: relative;
-  margin: 0 auto;
-  max-width: 1440px;
-  width: 100%;
-  height: 710px
+a.cta:hover {
+  @apply text-brand-red;
+  @apply border-brand-red;
+  @apply text-brand-red;
 }
 
 .hero-background-2 {
@@ -114,16 +163,6 @@ a {
 
 
 
-
-h1 {
-  font-family: 'hk_grotesk_prolight';
-  font-size: 2rem;
-}
-
-p {
-  font-family: 'hk_grotesk_prolight';
-  font-size: 1.2rem;
-}
 
 
 

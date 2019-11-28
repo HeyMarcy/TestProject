@@ -32,7 +32,9 @@
   "license": "MIT",
   "dependencies": {
     "gsap": "^3.0.1",
-    "parcel-bundler": "1.12.4"
+    "parcel-bundler": "1.12.4",
+    "scrollmagic": "^2.0.7",
+    "scrollmagic-plugin-gsap": "^1.0.3"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",

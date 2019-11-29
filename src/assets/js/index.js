@@ -8,10 +8,26 @@ const controller = new ScrollMagic.Controller({addIndicators: true})
 
 
 // HERO
-const colLine = document.getElementsByClassName('col-2-bar')
-gsap.set(colLine, {
-  height: 3,
+const col2 = document.getElementById('col-2')
+
+
+const lines = Array.from({ length: 500 }, () =>
+document.createElement("div")
+)
+lines.forEach(div => {
+  // gsap.to(div, {
+  // marginTop: 1
+  // })
+  col2.appendChild(div)
 })
+gsap.to(lines, {
+  opacity: 1,
+  // marginTop: 1,
+  stagger: {
+    each: 0.015,
+  }
+})
+
 // const divs = Array.from({ length: noOfLines }, () =>
 // document.createElement("div")
 // )

@@ -7,11 +7,34 @@ ScrollMagicPluginGsap(ScrollMagic, gsap);
 const controller = new ScrollMagic.Controller({addIndicators: true})
 
 
+// HERO
+const colLine = document.getElementsByClassName('col-2-bar')
+gsap.set(colLine, {
+  height: 3,
+})
+// const divs = Array.from({ length: noOfLines }, () =>
+// document.createElement("div")
+// )
+// divs.forEach(div => {
+//   // gsap.to(div, {
+//   // marginTop: 1
+//   // })
+//   col6.appendChild(div)
+// })
+// gsap.to(divs, {
+//   opacity: 1,
+//   // marginTop: 1,
+//   stagger: {
+//     each: .015,
+//   }
+// })
+
+
+
 
 // SECTION 5 
 
 const sampleLine = document.getElementById('sampleLine')
-const circlegraphLines = document.getElementById('circlegraphLines')
 
 
 const circlegraphLinesPos = sampleLine.getBBox();
@@ -19,9 +42,9 @@ const circlegraphLinesPos = sampleLine.getBBox();
 
 console.log('circlegraphLinesPos', circlegraphLinesPos)
 
-const sect7Tl = gsap.timeline()
+const sect5Tl = gsap.timeline()
 
-sect7Tl
+sect5Tl
   .from(".sect5-lines", { 
     opacity: 0, 
     y: '+=200', 
@@ -30,18 +53,18 @@ sect7Tl
     stagger: 0.125,})
 
 
-sect7Tl.pause()
+  sect5Tl.pause()
 
 new ScrollMagic.Scene({
   triggerElement: '#section5',
-  duration: "50%",
-  triggerHook: 0.125
+  duration: "70%",
+  triggerHook: 0.5
   })
   .on("enter", function (e) {
-    sect7Tl.play()
+    sect5Tl.play()
   })
   .on("leave", function (e) {
-      sect7Tl.reverse()
+    sect5Tl.reverse()
   })
   .addIndicators()
   .addTo(controller)

@@ -1,5 +1,10 @@
 
 /* SVGs */
+#circlegrraph {
+  transform: rotate(-45deg);
+}
+
+
 
 #triangle {
   position: absolute;

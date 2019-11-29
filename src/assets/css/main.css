@@ -8,9 +8,89 @@
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
 }
+
+#hero1 {
+  height: 720px
+}
+#hero2 {
+  height: 921px
+}
+
+.columnBarsContainer {
+  position: absolute;
+  top:511px;
+  width:1140px;
+  left: 10%;
+  right: 10%;
+
+}
+.columnBars {
+  position: absolute;
+  top:511px;
+  width:1140px;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+}
+
+.columnGrid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 48px;
+}
+
+.col-1 {
+ height: 431px;
+ color: #EEDD23;
+
+}
+.col-2 {
+  height: 462px;
+  color: #F33437;
+  
+ }
+ .col-3 {
+  height: 328px;
+  color: #F33437;
+  
+ }
+ .col-4 {
+  height: 465px;
+  color: #086EA0;
+  
+ }
+ .col-5 {
+  height: 556px;
+  
+ }
+ .col-6 {
+  height: 891px;
+  color: #EEDD23;
+  
+ }
+ .col-7 {
+  height: 1200px;
+  
+ }
+ .col-8 {
+  height: 816px;
+  color: #086EA0;
+  
+ }
+ .bar {
+   background-color: currentColor;
+   height:100%;
+   width:100%;
+ }
+
+
 .box {
   min-height: 200px;
 }
+
+
+
 
 .box-short {
   min-height: 2rem;

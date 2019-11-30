@@ -162,7 +162,18 @@ a.cta:hover {
 }
 
 
+/* NAV */
 
+.logo {
+  font-size: 2.5rem ;
+  @apply inline-block;
+}
+.logo .lorem{
+  font-family: 'hk_grotesk_prosemibold';
+  font-size: 2.5rem ;
+  @apply inline-block;
+  @apply text-blue-brand;
+}
 
 
 

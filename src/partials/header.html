@@ -3,14 +3,14 @@
 
 	<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
 			
-		<div class="pl-4 flex items-center">
-			<a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="#"> 
+		<div class="pl-4 flex flex-row ">
+			<a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl inline-block"  href="#"> 
 				<svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 56.7 56.7" style="enable-background:new 0 0 56.7 56.7;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#086EA0;}
-	.st1{fill:#67C7EC;}
-</style>
+	 			viewBox="0 0 56.7 56.7" style="enable-background:new 0 0 56.7 56.7;" xml:space="preserve">
+				<style type="text/css">
+					.st0{fill:#086EA0;}
+					.st1{fill:#67C7EC;}
+				</style>
 <path id="OuterRing" class="st0" d="M28.3,56.7c-0.6,0-1.2,0-1.8-0.2v-2.6h1.8c0.5,0,1.1,0,1.6-0.2v2.8
 	C29.4,56.6,28.9,56.7,28.3,56.7z M35.5,55.7L35.5,55.7l-0.8-2.6c0.6-0.2,1.2-0.4,1.8-0.6c0.4-0.1,0.9-0.3,1.4-0.4l0.8,2.6
 	C37.6,55.1,36.6,55.5,35.5,55.7L35.5,55.7z M21.2,55.7L21.2,55.7c-1.1-0.2-2.1-0.5-3.2-1h0l0.8-2.6c0.6,0.2,1.2,0.4,1.8,0.6
@@ -58,7 +58,12 @@
 	l-3.6,2.4c-0.8-0.8-1.4-1.6-2-2.6l3.6-2.6l0,0c-0.2-0.2-0.4-0.5-0.4-0.8l-4.2,1.4c-0.4-1-0.8-2.1-1-3.2l4.2-1.4h-0.2v-0.8h-4.4v-3.4
 	h4.4v-0.8l-4-1.4c0.2-1.1,0.6-2.1,1-3.2l4.2,1.4l0,0c0.1-0.3,0.2-0.6,0.4-0.8l-3.6-2.4c0.5-1,1.2-1.9,2-2.8l3.4,2.6l0.2-0.2l0.6-0.6
 	l-2.6-3.4c0.8-0.7,1.7-1.4,2.6-2l2.6,3.6l0,0c0.4-0.2,0.6-0.4,0.8-0.4l-1.4-4.2c1-0.4,2.1-0.7,3.2-1l1.4,4.2v-0.2h0.8v-4.4H29.9z"/>
-</svg> <span></span>
+</svg> 
+
+	<span class="logo lorem">	Lorem 
+	</span>
+	<span class="logo">	Ipsum 
+	</span>
 			</a>
 		</div>
 
@@ -91,3 +96,88 @@
 </nav>
 
 </header>
+
+
+
+<script>
+
+	var scrollpos = window.scrollY;
+	var header = document.getElementById("header");
+	var navcontent = document.getElementById("nav-content");
+	var navaction = document.getElementById("navAction");
+	var brandname = document.getElementById("brandname");
+	var toToggle = document.querySelectorAll(".toggleColour");
+
+	document.addEventListener('scroll', function() {
+
+	/*Apply classes for slide in bar*/
+	scrollpos = window.scrollY;
+
+    if(scrollpos > 10){
+  	  for (var i = 0; i < toToggle.length; i++) {
+	     toToggle[i].classList.add("text-gray-800");
+		 toToggle[i].classList.remove("text-white");
+	  }
+	  header.classList.add("shadow");
+	  navcontent.classList.remove("bg-gray-100");
+	  navcontent.classList.add("bg-white");
+    }
+    else {
+	  header.classList.remove("bg-white");
+	  navaction.classList.remove("gradient");
+	  navaction.classList.add("bg-white");
+	  navaction.classList.remove("text-white");
+	  navaction.classList.add("text-gray-800");
+	  //Use to switch toggleColour colours
+  	  for (var i = 0; i < toToggle.length; i++) {
+	     toToggle[i].classList.add("text-white");
+		 toToggle[i].classList.remove("text-gray-800");
+	  }
+	  
+	  header.classList.remove("shadow");
+	  navcontent.classList.remove("bg-white");
+	  navcontent.classList.add("bg-gray-100");
+	  
+    }
+
+	});
+
+	
+</script>
+
+<script>
+	
+	
+	/*Toggle dropdown list*/
+	/*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+	
+	var navMenuDiv = document.getElementById("nav-content");
+	var navMenu = document.getElementById("nav-toggle");
+	
+	document.onclick = check;
+	function check(e){
+	  var target = (e && e.target) || (event && event.srcElement);
+	  
+	  //Nav Menu
+	  if (!checkParent(target, navMenuDiv)) {
+		// click NOT on the menu
+		if (checkParent(target, navMenu)) {
+		  // click on the link
+		  if (navMenuDiv.classList.contains("hidden")) {
+			navMenuDiv.classList.remove("hidden");
+		  } else {navMenuDiv.classList.add("hidden");}
+		} else {
+		  // click both outside link and outside menu, hide menu
+		  navMenuDiv.classList.add("hidden");
+		}
+	  }
+	  
+	}
+	function checkParent(t, elm) {
+	  while(t.parentNode) {
+		if( t == elm ) {return true;}
+		t = t.parentNode;
+	  }
+	  return false;
+	}
+</script>

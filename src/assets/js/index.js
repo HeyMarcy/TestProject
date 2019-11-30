@@ -1,32 +1,77 @@
 import { gsap } from 'gsap'
 import ScrollMagic from 'ScrollMagic'
-import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
+// import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
 
-ScrollMagicPluginGsap(ScrollMagic, gsap);
+// ScrollMagicPluginGsap(ScrollMagic, gsap);
 
-const controller = new ScrollMagic.Controller({addIndicators: true})
+const controller = new ScrollMagic.Controller()
+// const controller = new ScrollMagic.Controller({addIndicators: true})
 
 
 // HERO
-const col2 = document.getElementById('col-2')
+const blueBar8 = document.getElementById('BlueBar8')
+const blueLines8 = document.getElementsByClassName('bluLines8')
+const bars = document.getElementsByClassName('bar')
+const barIcons = document.getElementsByClassName('barIcon')
+
+// gsap.set(blueBar8, {
+
+//   // y: -200,
+//   height: '5px',
+// })
+
+gsap.set(barIcons, {
+  opacity: 0,
+})
 
 
-const lines = Array.from({ length: 500 }, () =>
-document.createElement("div")
-)
-lines.forEach(div => {
-  // gsap.to(div, {
-  // marginTop: 1
+const heroTl = gsap.timeline()
+
+heroTl
+.from(bars, {
+  opacity: 0,
+  y: -800,
+
+  // transformOrigin: '50% 50%',
+  // ease: 'back.out',
+  // stagger: 0.125,
+})
+.from(bars, {
+  height: 5,
+
+})
+  // .from(blueBar8, {
+  //   opacity: 0,
+  //   y: -800,
+  //   // transformOrigin: '50% 50%',
+  //   // ease: 'back.out',
+  //   // stagger: 0.125,
   // })
-  col2.appendChild(div)
-})
-gsap.to(lines, {
-  opacity: 1,
-  // marginTop: 1,
-  stagger: {
-    each: 0.015,
-  }
-})
+  // .from(blueBar8, {
+  //   height: 5,
+  //   // transformOrigin: '50% 50%',
+  //   // ease: 'back.out',
+  //   // stagger: 0.125,
+  // })
+
+
+
+// const lines = Array.from({ length: 500 }, () =>
+// document.createElement("div")
+// )
+// lines.forEach(div => {
+//   // gsap.to(div, {
+//   // marginTop: 1
+//   // })
+//   col2.appendChild(div)
+// })
+// gsap.to(lines, {
+//   opacity: 1,
+//   // marginTop: 1,
+//   stagger: {
+//     each: 0.015,
+//   }
+// })
 
 // const divs = Array.from({ length: noOfLines }, () =>
 // document.createElement("div")
@@ -44,9 +89,6 @@ gsap.to(lines, {
 //     each: .015,
 //   }
 // })
-
-
-
 
 // SECTION 5 
 
@@ -125,5 +167,5 @@ new ScrollMagic.Scene({
   .on("leave", function (e) {
       triTl.reverse()
   })
-  .addIndicators()
+  // .addIndicators()
   .addTo(controller)

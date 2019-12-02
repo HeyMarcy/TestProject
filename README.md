@@ -5,7 +5,7 @@ It's using `postcss-cli` to watch Tailwind's config file.
 
 ## Usage
 
-Just fork this repository, run `yarn` and you should be ready to go.
+Just fork or clone this repository, run `yarn` and you should be ready to go.
 
 - **Development:**
   `yarn start` will run a development server with hot reloading at <localhost:1234>

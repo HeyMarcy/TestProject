@@ -34,7 +34,7 @@ sect5Tl.pause()
 
 new ScrollMagic.Scene({
   triggerElement: '#section5',
-  duration: '70%',
+  duration: '80%',
   triggerHook: 0.4,
 })
   .on('enter', function (e) {

@@ -17,22 +17,22 @@
 	<clipPath id="SVGID_2_">
 		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 	</clipPath>
-	<g id="Group_10_Copy-2" class="st1">
+	<g  class="st1">
 		<g id="Group_10_Copy-3" transform="translate(230.988 75.488) rotate(90)">
-			<path id="Line_9-11_1_" class="st2" d="M0,101h129"/>
-			<path id="Line_9-12_1_" class="st2" d="M0,111h129"/>
-			<path id="Line_9-13_1_" class="st2" d="M0,121h129"/>
-			<path id="Line_9-14_1_" class="st2" d="M0,131h129"/>
-			<path id="Line_9-15_1_" class="st2" d="M0,141h129"/>
-			<path id="Line_9-16_1_" class="st2" d="M0,151h129"/>
-			<path id="Line_9-17_1_" class="st2" d="M0,161h129"/>
-			<path id="Line_9-18_1_" class="st2" d="M0,171h129"/>
-			<path id="Line_9-19_1_" class="st2" d="M0,181h129"/>
-			<path id="Line_9-20_1_" class="st2" d="M0,191h129"/>
-			<path id="Line_9-21_1_" class="st2" d="M0,201h129"/>
-			<path id="Line_9-22_1_" class="st2" d="M0,211h129"/>
-			<path id="Line_9-23_1_" class="st2" d="M0,221h129"/>
-			<path id="Line_9-24_1_" class="st2" d="M0,231h129"/>
+			<path class="st2" d="M0,101h129"/>
+			<path  class="st2" d="M0,111h129"/>
+			<path  class="st2" d="M0,121h129"/>
+			<path  class="st2" d="M0,131h129"/>
+			<path  class="st2" d="M0,141h129"/>
+			<path class="st2" d="M0,151h129"/>
+			<path  class="st2" d="M0,161h129"/>
+			<path  class="st2" d="M0,171h129"/>
+			<path class="st2" d="M0,181h129"/>
+			<path  class="st2" d="M0,191h129"/>
+			<path  class="st2" d="M0,201h129"/>
+			<path  class="st2" d="M0,211h129"/>
+			<path  class="st2" d="M0,221h129"/>
+			<path class="st2" d="M0,231h129"/>
 		</g>
 	</g>
 </g>

@@ -10,9 +10,9 @@
       }
     </style>
   </defs>
-  <g id="Group_1" data-name="Group 1" transform="translate(-912)">
-    <circle id="Oval" class="cls-1" cx="39.5" cy="39.5" r="39.5" transform="translate(983)"/>
-    <circle id="Oval_Copy" data-name="Oval Copy" cx="39.5" cy="39.5" r="39.5" transform="translate(912 119)"/>
-    <circle id="Oval_Copy_2" data-name="Oval Copy 2" class="cls-2" cx="39.5" cy="39.5" r="39.5" transform="translate(1050 119)"/>
+  <g data-name="Group 1" transform="translate(-912)">
+    <circle class="cls-1" cx="39.5" cy="39.5" r="39.5" transform="translate(983)"/>
+    <circle data-name="Oval Copy" cx="39.5" cy="39.5" r="39.5" transform="translate(912 119)"/>
+    <circle data-name="Oval Copy 2" class="cls-2" cx="39.5" cy="39.5" r="39.5" transform="translate(1050 119)"/>
   </g>
 </svg>

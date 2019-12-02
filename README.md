@@ -1,4 +1,5 @@
 # Test Project
+
 This project was built using [Parcel](https://parceljs.org/) and [TailwindCSS](https://tailwindcss.com/) together.
 It also uses Greensock and Scollmagic for animation.
 
@@ -13,7 +14,7 @@ Just fork or clone this repository, run `yarn` and you should be ready to go.
 - **Production:**
   `yarn build` will bundle everything up on your `/dist` folder
 
-# Intent and To Dos:
+## Intent and To Dos:
 There are four sections that aren't included — the footer, logo section, the "It works..." section, and the second-to-last 'legos' section.
 
 There are probably many formatting issues. I seem to be having a conflict with 'Prettier'.

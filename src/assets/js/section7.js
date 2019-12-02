@@ -3,7 +3,6 @@ import ScrollMagic from 'ScrollMagic'
 
 const sect7controller = new ScrollMagic.Controller()
 
-// SECTION 7 - TRIANGLE PYRAMID
 const triBlue = document.getElementById('blueTop')
 const triBlack = document.getElementById('blackMiddle')
 const triRed = document.getElementById('redCenter')

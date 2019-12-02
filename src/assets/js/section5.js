@@ -5,19 +5,6 @@ import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap'
 ScrollMagicPluginGsap(ScrollMagic, gsap);
 
 const controller = new ScrollMagic.Controller()
-// const controller = new ScrollMagic.Controller({addIndicators: true})
-
-
-
-// SECTION 5 
-
-const sampleLine = document.getElementById('sampleLine')
-
-
-const circlegraphLinesPos = sampleLine.getBBox()
-
-
-console.log('circlegraphLinesPos', circlegraphLinesPos)
 
 const sect5Tl = gsap.timeline()
 

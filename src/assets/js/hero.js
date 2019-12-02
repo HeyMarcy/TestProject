@@ -1,9 +1,4 @@
 import { gsap } from 'gsap'
-import ScrollMagic from 'ScrollMagic'
-
-// const heroController = new ScrollMagic.Controller()
-
-// HERO
 const paths = document.getElementsByClassName('path')
 const bars = document.getElementsByClassName('bar')
 const barIcons = document.getElementsByClassName('barIcon')

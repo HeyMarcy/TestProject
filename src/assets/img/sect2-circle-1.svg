@@ -11,14 +11,14 @@
 	C28.9,129,0,100.1,0,64.5l0,0C0,28.9,28.9,0,64.5,0z"/>
 <g>
 	<defs>
-		<path id="SVGID_1_" d="M64.5,0L64.5,0C100.1,0,129,28.9,129,64.5l0,0c0,35.6-28.9,64.5-64.5,64.5l0,0C28.9,129,0,100.1,0,64.5l0,0
+		<path d="M64.5,0L64.5,0C100.1,0,129,28.9,129,64.5l0,0c0,35.6-28.9,64.5-64.5,64.5l0,0C28.9,129,0,100.1,0,64.5l0,0
 			C0,28.9,28.9,0,64.5,0z"/>
 	</defs>
-	<clipPath id="SVGID_2_">
+	<clipPath>
 		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 	</clipPath>
 	<g  class="st1">
-		<g id="Group_10_Copy-3" transform="translate(230.988 75.488) rotate(90)">
+		<g transform="translate(230.988 75.488) rotate(90)">
 			<path class="st2" d="M0,101h129"/>
 			<path  class="st2" d="M0,111h129"/>
 			<path  class="st2" d="M0,121h129"/>

@@ -27,8 +27,8 @@
   <title>sect2-circle-2</title>
   <path  class="cls-2" d="M64.5,0h0A64.5,64.5,0,0,1,129,64.5h0A64.5,64.5,0,0,1,64.5,129h0A64.5,64.5,0,0,1,0,64.5H0A64.5,64.5,0,0,1,64.5,0Z"/>
   <g class="cls-3">
-    <g id="Group_10_Copy-2" data-name="Group 10 Copy-2">
-      <g id="Group_10_Copy-3" data-name="Group 10 Copy-3">
+    <g data-name="Group 10 Copy-2">
+      <g data-name="Group 10 Copy-3">
         <path data-name="Line 9-12" class="cls-4" d="M124,35v93"/>
         <path data-name="Line 9-13" class="cls-4" d="M114,35v93"/>
         <path data-name="Line 9-14" class="cls-4" d="M104,35v93"/>

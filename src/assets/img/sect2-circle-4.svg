@@ -21,12 +21,12 @@
         stroke-width: 4px;
       }
     </style>
-    <clipPath id="clip-path">
+    <clipPath>
       <path class="cls-1" d="M64.5,0h0A64.53,64.53,0,0,1,129,64.5h0A64.53,64.53,0,0,1,64.5,129h0A64.53,64.53,0,0,1,0,64.5H0A64.53,64.53,0,0,1,64.5,0Z"/>
     </clipPath>
   </defs>
   <title>sect2-circle-4</title>
-  <path id="Mask-2" class="cls-2" d="M64.5,0h0A64.53,64.53,0,0,1,129,64.5h0A64.53,64.53,0,0,1,64.5,129h0A64.53,64.53,0,0,1,0,64.5H0A64.53,64.53,0,0,1,64.5,0Z"/>
+  <path class="cls-2" d="M64.5,0h0A64.53,64.53,0,0,1,129,64.5h0A64.53,64.53,0,0,1,64.5,129h0A64.53,64.53,0,0,1,0,64.5H0A64.53,64.53,0,0,1,64.5,0Z"/>
   <g class="cls-3">
     <g data-name="Group 10 Copy-2">
       <g  data-name="Group 10 Copy-3">

@@ -17,7 +17,7 @@
         stroke-width: 4px;
       }
     </style>
-    <clipPath id="clip-path">
+    <clipPath>
       <path class="cls-1" d="M64.5,0h0A64.5,64.5,0,0,1,129,64.5h0A64.5,64.5,0,0,1,64.5,129h0A64.5,64.5,0,0,1,0,64.5H0A64.5,64.5,0,0,1,64.5,0Z"/>
     </clipPath>
   </defs>

@@ -34,10 +34,10 @@
     </g>
     <circle  class="cls-2" cx="39.5" cy="39.5" r="39.5" transform="translate(754 3567)"/>
     <circle data-name="Oval Copy" cx="39.5" cy="39.5" r="39.5" transform="translate(685 3443)"/>
-    <circle id="Oval_Copy_2" data-name="Oval Copy 2" class="cls-3" cx="39.5" cy="39.5" r="39.5" transform="translate(858 3443)"/>
-    <circle id="Oval_Copy_3" data-name="Oval Copy 3" class="cls-4" cx="39.5" cy="39.5" r="39.5" transform="translate(945 3567)"/>
-    <circle id="Oval_Copy_4" data-name="Oval Copy 4" class="cls-2" cx="39.5" cy="39.5" r="39.5" transform="translate(1033 3443)"/>
-    <circle id="Oval_Copy_5" data-name="Oval Copy 5" class="cls-5" cx="39.5" cy="39.5" r="39.5" transform="translate(1136 3567)"/>
-    <circle id="Oval_Copy_6" data-name="Oval Copy 6" class="cls-4" cx="39.5" cy="39.5" r="39.5" transform="translate(1206 3443)"/>
+    <circle data-name="Oval Copy 2" class="cls-3" cx="39.5" cy="39.5" r="39.5" transform="translate(858 3443)"/>
+    <circle data-name="Oval Copy 3" class="cls-4" cx="39.5" cy="39.5" r="39.5" transform="translate(945 3567)"/>
+    <circle  data-name="Oval Copy 4" class="cls-2" cx="39.5" cy="39.5" r="39.5" transform="translate(1033 3443)"/>
+    <circle data-name="Oval Copy 5" class="cls-5" cx="39.5" cy="39.5" r="39.5" transform="translate(1136 3567)"/>
+    <circle data-name="Oval Copy 6" class="cls-4" cx="39.5" cy="39.5" r="39.5" transform="translate(1206 3443)"/>
   </g>
 </svg>

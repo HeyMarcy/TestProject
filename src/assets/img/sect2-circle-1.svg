@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<svg version="1.1" id="circle_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="129" height="129"
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="129" height="129"
 	 viewBox="0 0 129 129" style="enable-background:new 0 0 129 129;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#EEDD23;}
 	.st1{clip-path:url(#SVGID_2_);}
 	.st2{fill:none;stroke:#066D9F;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10;}
 </style>
-<path id="Mask-2" class="st0" d="M64.5,0L64.5,0C100.1,0,129,28.9,129,64.5l0,0c0,35.6-28.9,64.5-64.5,64.5l0,0
+<path class="st0" d="M64.5,0L64.5,0C100.1,0,129,28.9,129,64.5l0,0c0,35.6-28.9,64.5-64.5,64.5l0,0
 	C28.9,129,0,100.1,0,64.5l0,0C0,28.9,28.9,0,64.5,0z"/>
 <g>
 	<defs>

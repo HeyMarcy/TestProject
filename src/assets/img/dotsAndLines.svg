@@ -25,15 +25,15 @@
       }
     </style>
   </defs>
-  <g id="Group_2" data-name="Group 2" transform="translate(-685 -3443)">
-    <g id="Group_19" data-name="Group 19" transform="translate(693 3609)">
-      <path id="Line_10" data-name="Line 10" class="cls-1" d="M.5-.5l482-108" transform="translate(98 -8)"/>
-      <path id="Line_11" data-name="Line 11" class="cls-1" d="M288.5-.5.5-114.5" transform="translate(194)"/>
-      <path id="Line_12" data-name="Line 12" class="cls-1" d="M.5-118.5l295,118"/>
-      <path id="Line_13" data-name="Line 13" class="cls-1" d="M89.5-125.5.5-.5" transform="translate(295 -1)"/>
+  <g data-name="Group 2" transform="translate(-685 -3443)">
+    <g  data-name="Group 19" transform="translate(693 3609)">
+      <path data-name="Line 10" class="cls-1" d="M.5-.5l482-108" transform="translate(98 -8)"/>
+      <path  data-name="Line 11" class="cls-1" d="M288.5-.5.5-114.5" transform="translate(194)"/>
+      <path data-name="Line 12" class="cls-1" d="M.5-118.5l295,118"/>
+      <path data-name="Line 13" class="cls-1" d="M89.5-125.5.5-.5" transform="translate(295 -1)"/>
     </g>
-    <circle id="Oval" class="cls-2" cx="39.5" cy="39.5" r="39.5" transform="translate(754 3567)"/>
-    <circle id="Oval_Copy" data-name="Oval Copy" cx="39.5" cy="39.5" r="39.5" transform="translate(685 3443)"/>
+    <circle  class="cls-2" cx="39.5" cy="39.5" r="39.5" transform="translate(754 3567)"/>
+    <circle data-name="Oval Copy" cx="39.5" cy="39.5" r="39.5" transform="translate(685 3443)"/>
     <circle id="Oval_Copy_2" data-name="Oval Copy 2" class="cls-3" cx="39.5" cy="39.5" r="39.5" transform="translate(858 3443)"/>
     <circle id="Oval_Copy_3" data-name="Oval Copy 3" class="cls-4" cx="39.5" cy="39.5" r="39.5" transform="translate(945 3567)"/>
     <circle id="Oval_Copy_4" data-name="Oval Copy 4" class="cls-2" cx="39.5" cy="39.5" r="39.5" transform="translate(1033 3443)"/>

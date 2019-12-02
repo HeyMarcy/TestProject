@@ -1,0 +1,17 @@
+<svg id="Group_14" data-name="Group 14" xmlns="http://www.w3.org/2000/svg" width="263" height="176" viewBox="0 0 263 176">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eedd23;
+      }
+
+      .cls-2 {
+        fill: #67c7ec;
+        mix-blend-mode: multiply;
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <circle id="Oval_2_Copy_2" data-name="Oval 2 Copy 2" class="cls-1" cx="88" cy="88" r="88"/>
+  <circle id="Oval_2_Copy_3" data-name="Oval 2 Copy 3" class="cls-2" cx="88" cy="88" r="88" transform="translate(87)"/>
+</svg>

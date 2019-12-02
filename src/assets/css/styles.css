@@ -154,132 +154,78 @@ a.cta:hover {
   @apply text-brand-red;
 }
 
-.hero-background-2 {
-  height: 100px;
-  background-color: #F1F1F1;
-  height: 921px
-
-}
 
 
 /* NAV */
 
 .logo {
-  font-size: 2.5rem ;
-  @apply inline-block;
+  font-size: 2.25rem;
+  font-family: 'hk_grotesk_prolight';
 }
-.logo .lorem{
+.logo.lorem{
   font-family: 'hk_grotesk_prosemibold';
   font-size: 2.5rem ;
-  @apply inline-block;
-  @apply text-blue-brand;
 }
 
 
-
-
-.cls-1, .cls-7, .cls-8, .cls-9 {
-  fill: none;
-  stroke-miterlimit: 10;
-}
-
-.cls-1 {
-  stroke: #6d7278;
-}
-
-.cls-2 {
-  fill: #eedd23;
-}
-
-.cls-3 {
-  fill: #fff;
-}
-
-.cls-4 {
-  fill: #f33437;
-}
-
-.cls-5 {
-  isolation: isolate;
-}
-
-.cls-6 {
-  fill: #67c7ec;
-}
-
-.cls-7 {
-  stroke: #eedd23;
-}
-
-.cls-7, .cls-8, .cls-9 {
-  stroke-linecap: square;
-}
-
-.cls-8 {
-  stroke: #000;
-}
-
-.cls-9 {
-  stroke: #2d7caf;
-}
 
 
 /* ACCORDION */
 
-         /* Tab content - closed */
-         .tab-content {
-          max-height: 0;
-          -webkit-transition: max-height .35s;
-          -o-transition: max-height .35s;
-          transition: max-height .35s;
-          }
-          /* :checked - resize to full height */
-          .tab input:checked ~ .tab-content {
-          max-height: 100vh;
-          }
-          /* Label formatting when open */
-          .tab input:checked ~ span.indicator{
-          /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
-          font-size: 1.5rem; /*.text-xl*/
-    
-   
-          }
-          /* Icon */
-          .tab span.indicator::after {
-          float:left;
-          left: 0;
-          bottom: 0;
-          display: block;
-          width: 1.5em;
-          height: 1.5em;
-          line-height: 1.5;
-          font-size: 1.5rem;
-          -webkit-transition: all .35s;
-          -o-transition: all .35s;
-          transition: all .35s;
-          }
-          /* Icon formatting - closed */
-          .tab input[type=checkbox] ~ span.indicator::after {
-          content: "+";
-    
-          /* border-width: 1px;
-          border-radius: 9999px; 
-          border-color: #b8c2cc;  */
-          }
-          /* Icon formatting - open */
-          .tab input[type=checkbox]:checked ~ span.indicator::after {
-            content: "–";
-          /* transform: rotate(315deg); */
-          /* background-color: #6574cd; 
-          color: #f8fafc;  */
-          }
-       
+/* Tab content - closed */
+.tab-content {
+max-height: 0;
+-webkit-transition: max-height .35s;
+-o-transition: max-height .35s;
+transition: max-height .35s;
+}
+/* :checked - resize to full height */
+.tab input:checked ~ .tab-content {
+max-height: 100vh;
+}
+/* Label formatting when open */
+.tab input:checked ~ span.indicator{
+/*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
+font-size: 1.5rem; /*.text-xl*/
 
 
-          /* SECTION 5 */
+}
+/* Icon */
+.tab span.indicator::after {
+float:left;
+left: 0;
+bottom: 0;
+display: block;
+width: 1.5em;
+height: 1.5em;
+line-height: 1.5;
+font-size: 1.5rem;
+-webkit-transition: all .35s;
+-o-transition: all .35s;
+transition: all .35s;
+}
+/* Icon formatting - closed */
+.tab input[type=checkbox] ~ span.indicator::after {
+content: "+";
+
+/* border-width: 1px;
+border-radius: 9999px; 
+border-color: #b8c2cc;  */
+}
+/* Icon formatting - open */
+.tab input[type=checkbox]:checked ~ span.indicator::after {
+  content: "–";
+/* transform: rotate(315deg); */
+/* background-color: #6574cd; 
+color: #f8fafc;  */
+}
+
+
+
+/* SECTION 5 */
 
 /* 
-          #circlegrraph {
-          ;
+#circlegrraph {
+;
 
-          } */
+} */

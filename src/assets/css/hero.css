@@ -1,0 +1,74 @@
+.hero-lead {
+  height: 700px
+}
+
+.hero2{
+  padding-top: 200px;
+}
+
+.heroGraphic {
+  width: 1192;
+  margin: auto;
+}
+
+#hero {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+
+.path, .cls-7, .cls-8, .cls-9 {
+  fill: none;
+  stroke-miterlimit: 10;
+}
+
+.path {
+  stroke: #6d7278;
+}
+
+.cls-2 {
+  fill: #eedd23;
+}
+
+.cls-3 {
+  fill: #fff;
+}
+
+.cls-4 {
+  fill: #f33437;
+}
+
+.cls-5 {
+  isolation: isolate;
+}
+
+.cls-6 {
+  fill: #67c7ec;
+}
+
+.cls-7 {
+  stroke: #eedd23;
+}
+
+.cls-7, .cls-8, .cls-9 {
+  stroke-linecap: square;
+}
+
+.cls-8 {
+  stroke: #000;
+}
+
+.cls-9 {
+  stroke: #2d7caf;
+}
+
+
+
+.hero-background-2 {
+  height: 100px;
+  background-color: #F1F1F1;
+  height: 921px
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" id="circle_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="129" height="129"
+	 viewBox="0 0 129 129" style="enable-background:new 0 0 129 129;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EEDD23;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:none;stroke:#066D9F;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10;}
+</style>
+<path id="Mask-2" class="st0" d="M64.5,0L64.5,0C100.1,0,129,28.9,129,64.5l0,0c0,35.6-28.9,64.5-64.5,64.5l0,0
+	C28.9,129,0,100.1,0,64.5l0,0C0,28.9,28.9,0,64.5,0z"/>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M64.5,0L64.5,0C100.1,0,129,28.9,129,64.5l0,0c0,35.6-28.9,64.5-64.5,64.5l0,0C28.9,129,0,100.1,0,64.5l0,0
+			C0,28.9,28.9,0,64.5,0z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="Group_10_Copy-2" class="st1">
+		<g id="Group_10_Copy-3" transform="translate(230.988 75.488) rotate(90)">
+			<path id="Line_9-11_1_" class="st2" d="M0,101h129"/>
+			<path id="Line_9-12_1_" class="st2" d="M0,111h129"/>
+			<path id="Line_9-13_1_" class="st2" d="M0,121h129"/>
+			<path id="Line_9-14_1_" class="st2" d="M0,131h129"/>
+			<path id="Line_9-15_1_" class="st2" d="M0,141h129"/>
+			<path id="Line_9-16_1_" class="st2" d="M0,151h129"/>
+			<path id="Line_9-17_1_" class="st2" d="M0,161h129"/>
+			<path id="Line_9-18_1_" class="st2" d="M0,171h129"/>
+			<path id="Line_9-19_1_" class="st2" d="M0,181h129"/>
+			<path id="Line_9-20_1_" class="st2" d="M0,191h129"/>
+			<path id="Line_9-21_1_" class="st2" d="M0,201h129"/>
+			<path id="Line_9-22_1_" class="st2" d="M0,211h129"/>
+			<path id="Line_9-23_1_" class="st2" d="M0,221h129"/>
+			<path id="Line_9-24_1_" class="st2" d="M0,231h129"/>
+		</g>
+	</g>
+</g>
+</svg>

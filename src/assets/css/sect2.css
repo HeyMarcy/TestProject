@@ -1,0 +1,44 @@
+img.circle-svg {
+margin: auto;
+}
+
+.circle {
+  fill: none;
+}
+
+.circle-bg {
+  fill: #eedd23;
+}
+
+.circle {
+  clip-path: url(#clip-path);
+}
+
+.line {
+  fill: none;
+  stroke: #066d9f;
+  stroke-linecap: square;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+#circle2 .circle-bg {
+  fill: #eedd23;
+}
+#circle2 .line {
+  fill: none;
+}
+
+
+#circle3 .circle-bg {
+  fill: #eedd23;
+}
+#circle3 .line {
+  fill: none;
+}
+#circle4 .circle-bg {
+  fill: #eedd23;
+}
+#circle4 .line {
+  fill: none;
+}

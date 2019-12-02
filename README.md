@@ -1,5 +1,6 @@
 # Test Project
-This project was built using [Parcel](https://parceljs.org/) and [TailwindCSS](https://tailwindcss.com/ together.
+This project was built using [Parcel](https://parceljs.org/) and [TailwindCSS](https://tailwindcss.com/) together.
+It also uses Greensock and Scollmagic for animation.
 
 It's using `postcss-cli` to watch Tailwind's config file.
 

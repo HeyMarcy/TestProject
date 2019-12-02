@@ -20,6 +20,7 @@ There are probably many formatting issues. I seem to be having a conflict with '
 
 ### Overall - To-Do:
 - Incorporate ScrollMagic to transition between sections.
+- Check and adjust vertical rhythm (spacing).
 - Clean up file structure.
 - Check for no javascipt (graceful degredation), and a11y.
 
@@ -43,6 +44,7 @@ Section Five:
 - graphic one: fix anim trigger 
 - graphic two: create animation (Morph SVG plugin?) 
 - graphic three: layout adjustment needed? Not enough room for requested animation. 
+- Adjust vertical spacing. 
 
 
 Section Six: 

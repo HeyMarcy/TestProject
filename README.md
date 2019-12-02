@@ -5,26 +5,25 @@ It's using `postcss-cli` to watch Tailwind's config file.
 
 ## Usage
 
-Just fork this repository, run `yarn` and you should be ready to go.
+Just fork or clone this repository, run `yarn` and you should be ready to go.
 
 - **Development:**
   `yarn start` will run a development server with hot reloading at <localhost:1234>
 - **Production:**
   `yarn build` will bundle everything up on your `/dist` folder
 
-## Intent and To Dos:
+# Intent and To Dos:
 There are four sections that aren't included — the footer, logo section, the "It works..." section, and the second-to-last 'legos' section.
 
 There are probably many formatting issues. I seem to be having a conflict with 'Prettier'.
 
-
-### Overall - To-Do:
+### To-Dos:
+Overall:
 - Incorporate ScrollMagic to transition between sections.
 - Check and adjust vertical rhythm (spacing).
-- Clean up file structure.
+- Clean up file structure and formatting.
 - Check for no javascipt (graceful degredation), and a11y.
 
-### Hero Section - To-Do:
 Hero Part One: 
 - Stagger columns, bring in any contained icons, adjust timing,
 - Animate black curved lines to 'draw' in by animating the stroke's dashed property or by using 'Draw SVG' plugin.

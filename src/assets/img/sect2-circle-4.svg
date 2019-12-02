@@ -11,7 +11,7 @@
       }
 
       .cls-3 {
-        clip-path: url(#clip-path);
+        clip-path: url(#clip-path4);
       }
 
       .cls-4 {
@@ -21,7 +21,7 @@
         stroke-width: 4px;
       }
     </style>
-    <clipPath>
+    <clipPath id="clip-path4">
       <path class="cls-1" d="M64.5,0h0A64.53,64.53,0,0,1,129,64.5h0A64.53,64.53,0,0,1,64.5,129h0A64.53,64.53,0,0,1,0,64.5H0A64.53,64.53,0,0,1,64.5,0Z"/>
     </clipPath>
   </defs>

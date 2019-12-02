@@ -8,13 +8,6 @@ const triBlue = document.getElementById('blueTop')
 const triBlack = document.getElementById('blackMiddle')
 const triRed = document.getElementById('redCenter')
 
-// const bluePos = triBlue.getBBox();
-// const blackPos = triBlack.getBBox();
-// const redPos = triRed.getBBox();
-
-// console.log('bluePos', bluePos)
-// console.log('blackPos', blackPos)
-// console.log('redPos', redPos)
 
 const triTl = gsap.timeline()
 
@@ -36,5 +29,5 @@ new ScrollMagic.Scene({
   .on('leave', function (e) {
     triTl.reverse()
   })
-  // .addIndicators()
+
   .addTo(sect7controller)

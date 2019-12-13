@@ -1,5 +1,5 @@
 import { gsap } from 'gsap'
-import ScrollMagic from 'ScrollMagic'
+import ScrollMagic from 'scrollmagic'
 
 const sect7controller = new ScrollMagic.Controller()
 

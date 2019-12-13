@@ -1,8 +1,8 @@
 import { gsap } from 'gsap'
-import ScrollMagic from 'ScrollMagic'
-import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap'
+import ScrollMagic from 'scrollmagic'
+// import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap'
 
-ScrollMagicPluginGsap(ScrollMagic, gsap);
+// ScrollMagicPluginGsap(ScrollMagic, gsap);
 
 const controller = new ScrollMagic.Controller()
 
@@ -22,7 +22,6 @@ sect5Tl.pause()
 new ScrollMagic.Scene({
   triggerElement: '#section5',
   duration: '80%',
-  triggerHook: 0.4,
 })
   .on('enter', function (e) {
     sect5Tl.play()
